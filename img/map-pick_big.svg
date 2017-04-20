@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="59px" height="67px" viewBox="0 0 59 67">
+<filter filterUnits="objectBoundingBox" x="-35.14" y="-27.66" width="170.27" height="155.32" id="filter0">
+<feGaussianBlur in="SourceAlpha" stdDeviation="6.50" result="dsBlurOut1"/>
+<feFlood flood-color="rgb(0,0,0)" flood-opacity="0.29" result="dsFloodOut1"/>
+<feComposite in="dsFloodOut1" in2="dsBlurOut1" operator="in" result="dsShadow1"/>
+<feOffset in="dsShadow1" dx="-0.00" dy="0.00" result="dsOffset1"/>
+<feComposite in="dsOffset1" in2="SourceAlpha" operator="out" result="dropShadow1"/>
+<feBlend in="dropShadow1" in2="SourceGraphic" mode="normal" result="sourceGraphic"/>
+</filter>
+<clipPath id="clip0"><path fillRule="evenodd" d="M 7 62C 7 62 7 7 7 7 7 7 52 7 52 7 52 7 52 62 52 62 52 62 7 62 7 62ZM 29.5 11C 19.28 11 11 19.12 11 29.13 11 39.14 30.19 58 30.19 58 30.19 58 48 39.14 48 29.13 48 19.12 39.72 11 29.5 11Z"/></clipPath><defs>
+<symbol id="symbol0"><path fillRule="evenodd" d="M 29.5 11C 39.72 11 48 19.12 48 29.13 48 39.14 30.19 58 30.19 58 30.19 58 11 39.14 11 29.13 11 19.12 19.28 11 29.5 11Z"/></symbol></defs>
+<g><path fillRule="evenodd" d="M 29.5 11C 39.72 11 48 19.12 48 29.13 48 39.14 30.19 58 30.19 58 30.19 58 11 39.14 11 29.13 11 19.12 19.28 11 29.5 11Z" fill="rgb(226,27,65)" filter="url(#filter0)"/><use xlink:href="#symbol0" x="0" y="0" width="59" height="67" fill="none" stroke="rgb(255,255,255)" stroke-width="2.00px" clip-path="url(#clip0)"/></g><circle cx="29.50" cy="29.50" r="8.50" fill="rgb(255,255,255)"/></svg>
